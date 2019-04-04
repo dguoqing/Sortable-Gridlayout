@@ -1,0 +1,14 @@
+.react-grid-item{
+  background: #f4f4f4;
+}
+
+
+li{
+  background: #ffe2e2;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.DragHandle{
+  float: right;
+}
