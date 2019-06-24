@@ -39,7 +39,7 @@ class SortableComponent extends Component {
     }));
   };
   render() {
-    return <SortableList items={this.state.items} onSortEnd={this.onSortEnd} useDragHandle />;
+    return <SortableList items={this.state.items} onSortEnd={this.onSortEnd} useDragHandle hideSortableGhost = {false} />;
   }
 }
 

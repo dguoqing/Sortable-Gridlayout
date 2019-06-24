@@ -49,13 +49,13 @@ class ResponsiveLocalStorageLayout extends React.PureComponent {
 
 
 
-// componentDidUpdate(nextProps, nextState){
-//   const oldValue = this.props.layoutsName +'_'+ this.props.layoutsIndex
-//   const newValue = nextProps.layoutsName +'_'+ nextProps.layoutsIndex
-//   if (oldValue != newValue){
-//     this.reload()
-//   }
-// }
+componentDidUpdate(nextProps, nextState){
+  const oldValue = this.props.layoutsName +'_'+ this.props.layoutsIndex
+  const newValue = nextProps.layoutsName +'_'+ nextProps.layoutsIndex
+  if (oldValue != newValue){
+    this.reload()
+  }
+}
 
 
   render() {
